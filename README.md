@@ -57,7 +57,7 @@
 
 1. Склонируйте репозиторий:
 
-   git clone https://github.com/YOUR_USERNAME/roblox-optimizer.git
+   git clone https://github.com/KaliDevx-sudo/Roblox-OptimiserPro
    cd roblox-optimizer
 
 2. Поместите RobloxOptimizer.cs и build.bat в одну папку.
