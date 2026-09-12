@@ -53,25 +53,6 @@
 - .NET Framework 4.0+ (уже есть в Windows 10/11)
 - Отключённый антивирус или добавленная папка в исключения
 
-### Сборка
-
-1. Склонируйте репозиторий:
-
-   git clone https://github.com/KaliDevx-sudo/Roblox-OptimiserPro
-   cd roblox-optimizer
-
-2. Поместите RobloxOptimizer.cs и build.bat в одну папку.
-
-3. Отключите антивирус (см. раздел выше).
-
-4. Запустите build.bat двойным кликом — скрипт соберёт RobloxOptimizer.exe и запустит его.
-
-5. Или скомпилируйте вручную:
-
-   C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /out:RobloxOptimizer.exe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll RobloxOptimizer.cs
-
----
-
 ## Структура проекта
 
 roblox-optimizer/
@@ -142,20 +123,6 @@ English (en) — полный
 - Таймеры для анимаций и метрик
 
 Без NuGet-пакетов и сторонних зависимостей — чистый .NET Framework.
-
----
-
-## Чему учит проект
-
-- Построение сложных WinForms-интерфейсов без дизайнера
-- Анимации и обновление метрик через таймеры
-- Архитектура мультиязычности
-- Async/await в WinForms
-- Диалоговые окна и модальные формы
-- Стилизация RichTextBox и цветной лог
-- Экспорт отчётов в файл
-
-Отличный стартовый шаблон для изучения C# десктоп-разработки.
 
 ---
 
